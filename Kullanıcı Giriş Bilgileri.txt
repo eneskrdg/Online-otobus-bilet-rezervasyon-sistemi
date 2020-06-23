@@ -1,0 +1,27 @@
+Eğer Aşağıdaki Şifre Veya Şifreler İle Site Paneline Giriş Yapamıyorsanız PHP My Adminden ybsbusticketmanagement
+veritabanı içerisinde aşağıda yer alan sql sorgusunu çalıştırarak yetkili şifrelerini '12345' olarak ayarlayabilirsiniz.
+
+UPDATE system_user SET `password` = '1e6bdb9d266d9c4073b34cdfa174b635' WHERE `userName` = 'Admin';
+UPDATE system_user SET `password` = '1e6bdb9d266d9c4073b34cdfa174b635' WHERE `userName` = 'Ahmet';
+UPDATE system_user SET `password` = '1e6bdb9d266d9c4073b34cdfa174b635' WHERE `userName` = 'Ali';
+UPDATE system_user SET `password` = '1e6bdb9d266d9c4073b34cdfa174b635' WHERE `userName` = 'Enes';
+UPDATE system_user SET `password` = '1e6bdb9d266d9c4073b34cdfa174b635' WHERE `userName` = 'Cengiz';
+
+Admin:
+user name = Admin
+password = 12345
+
+Yönetici:
+user name = Enes
+password = 12345
+
+Rezervasyon:
+user name = Ali
+password = 12345
+
+Muavin:
+user name = Ahmet
+password = 12345﻿
+
+user name = Cengiz
+password = 12345﻿
